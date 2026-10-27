@@ -1,16 +1,41 @@
-# React + Vite
+# CampusConnect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CampusConnect is a web application that helps students manage campus events, track attendance, and organize personal tasks through a centralized dashboard.
 
-Currently, two official plugins are available:
+## Video Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Watch the CampusConnect Demo](https://drive.google.com/file/d/1aV8A3K9mqgnHFKmWY6N9JC8x70VKM-Dk/view?usp=sharing)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User registration and login
+- Centralized student dashboard
+- Create and view campus events
+- Join events and track attendance
+- Create, complete, and delete personal tasks
+- Secure authentication and access control
+- Persistent data storage
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, Vite, JavaScript, CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas, Mongoose
+- **Authentication:** JWT, bcrypt, HttpOnly cookies
+- **Version Control:** Git and GitHub
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm
+- MongoDB Atlas account
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd campusconnect
+npm install
